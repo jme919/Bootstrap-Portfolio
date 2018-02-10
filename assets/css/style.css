@@ -8,7 +8,7 @@ body{
 }
 
 
-/*list-style type does not remove the bullets on my form*/
+/*list-style-type:none does not remove the bullets on my form*/
 ul li a{
 	color: #999;
 	list-style-type: none;
@@ -82,4 +82,19 @@ input[type=submit]{
 
 .mypic{
 	width:200px;
+}
+
+/*portfolio page*/
+
+.work img{
+  width: 274px;
+}
+
+.work h3{
+  font-weight: 300;
+  line-height: 30px;
+  color: #fff;
+  text-align: center;
+  background: #4aaaa5;
+  width: 274px;
 }
