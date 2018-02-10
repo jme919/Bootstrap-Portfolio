@@ -49,6 +49,7 @@ h3 {
   background: #fff;
   border: 1px solid #ddd;
   border-bottom: 2px solid #eee;
+   
 }
 
 	
@@ -63,7 +64,7 @@ footer {
   border-top: 8px solid #4aaaa5;
 }
 
-/*main contact section*/
+/*main section for each page*/
 .main{
   background: #fff;
   border: 1px solid #ddd;
@@ -71,11 +72,26 @@ footer {
 
 }
 
+/*contact me section form*/
+
 input[type=submit]{
   font-size: 18px;
   color: #fff;
   cursor: pointer;
   background: #4aaaa5;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  height: 35px;
+  padding: 0 10px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+}
+
+textarea {
+  height: 200px;
 }
 
 /*about page*/
