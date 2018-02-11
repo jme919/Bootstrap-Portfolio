@@ -55,6 +55,7 @@ h3 {
 	
 /*footer*/
 footer {
+  clear: both;
   padding: 30px 0; 
   font-size: 12px;
   color: #fff;
